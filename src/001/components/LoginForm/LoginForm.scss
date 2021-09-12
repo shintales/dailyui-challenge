@@ -1,0 +1,53 @@
+form {
+    background: white;
+    color: #9c236c;
+    opacity: 90%;
+    padding: 30px;
+    border-radius: 24px;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        border-bottom: 1px solid #f380b1;
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    button {
+        width: 100%;
+        margin: 1em 0;
+        background: linear-gradient(120deg, #ef5494, #d61983, #9b216a);
+        border: none;
+        border-radius: 24px;
+        color: white;
+        text-align: center;
+        font-size: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+            background: #ef5494;
+        }
+    }
+    
+    .bottom-section {
+        padding: 20px 0;
+
+        label {
+            display: block;
+            text-align: center;
+            padding: 5px;
+            cursor: pointer;
+    
+            a {
+                text-decoration: none;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

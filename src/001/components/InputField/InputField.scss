@@ -1,0 +1,37 @@
+
+.input-field {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #f380b1;
+    
+    input {
+        background: none;
+        border: none;
+        padding: 10px 14px;
+        margin: 5px 0;
+        color: #3f043e;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    label {
+        position: absolute;
+        top: 40%;
+        color: gray;
+        transform: translateY(-120%);
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+        top: -5px;
+        color: #f380b1;
+    }
+}
