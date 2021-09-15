@@ -1,0 +1,21 @@
+:root {
+    --secondary-font-color: gray;
+    --tertiary-font-color: #ebefc9;
+    --bg-dark: #24958d;
+    --bg-medium: #43d88d;
+    --bg-light: #9ae796;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: var(--bg-light);
+    width: fit-content;
+    height: auto;
+}

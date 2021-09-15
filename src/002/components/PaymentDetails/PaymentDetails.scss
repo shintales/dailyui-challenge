@@ -1,0 +1,61 @@
+.container {
+    background-color: white;
+    width: 650px;
+    height: 650px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px var(--bg-medium);
+
+    .content {
+        display: flex;
+        height: 100%;
+
+        form {
+            flex: 6;
+            display: flex;
+            padding: 30px;
+            flex-direction: column;
+
+            h1 {
+                text-align: center;
+                font-size: 50px;
+            }
+
+            .expiry-date-cvv {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    button {
+        margin: 20px 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px 0;
+        color: white;
+    }
+
+    .bg-green {
+        background-color: var(--bg-medium);
+    }
+
+    .bg-blue {
+        background-color: #1a4569;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid;
+    }
+
+    .seperator {
+        border-bottom: 1px solid var(--secondary-font-color);
+        margin: 10px 0;
+    }
+
+    .other-payment-method {
+        margin: 10px 0;
+        text-align: center;
+        color: var(--secondary-font-color);
+    }
+}

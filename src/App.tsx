@@ -1,12 +1,12 @@
 import React from 'react'
-import Login from './001/pages/Login'
+import Checkout from './002/pages/Checkout'
 import './App.css'
 
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Checkout />
     </div>
   )
 }

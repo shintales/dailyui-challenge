@@ -1,0 +1,27 @@
+.orders-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-dark);
+    color: var(--tertiary-font-color);
+    border-radius: 0 5px 5px 0;
+    padding: 50px;
+}
+
+.to-pay {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-order {
+    font-size: 60px;
+}
+
+.cancel-payment {
+    font-size: 12px;
+    margin: 0;
+}
